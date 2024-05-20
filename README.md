@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Useful Links
 
-- Solution URL: [Checkout Repository](https://github.com/beRajeevKumar/QR_Code_Component.git).
-- Live Site URL: [Visit Live](https://qrcode-rajeev.netlify.app/).
+- Solution URL: [Checkout Repository](https://github.com/beRajeevKumar/Community_Card.git).
+- Live Site URL: [Visit Live](https://communitycard-rajeev.netlify.app/).
 - Blog Post URL: [Read Blog](https://www.iamrajeev.me/blog/qr-code-component-using-html-and-css).
 
 ## My process
@@ -53,12 +53,32 @@ By the end of this project, I learned how to create a single price grid componen
 Some code snippets that I am proud of are:
 
 ```html
-<title>Rajeev Kumar &mdash; QR Code Component</title>
+<p class="price"><span> &dollar;29</span>per month</p>
+
+<li>Peer &amp; expert code review</li>
 ```
 
 ```css
-html {
-  font-size: 62.5%;
+@media (max-width: 620px) {
+  html {
+    font-size: 50%;
+  }
+}
+@media (max-width: 490px) {
+  html {
+    font-size: 50%;
+  }
+  body {
+    margin: 1rem;
+  }
+  .container {
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+  }
+  .description {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
 }
 ```
 
